@@ -1,0 +1,20 @@
+#spring:
+#  application:
+#    name: coupon-eureka
+#server:
+#  port: 8000
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    # 标识是否从EurekaServer 获取注册信息，默认是true。如果是一个单节点的EurekaServer
+#    # 不需要同步其他节点的数据，设置为false
+#    fetch-registry: false
+#    # 是否将自己注册到EurekaServer,默认是true，由于当前是单节点EurekaServer
+#    # 需要设置为false
+#    register-with-eureka: false
+#    # 设置EurekaServer所在地址，查询服务和注册服务都需要以来这个地址
+#    service-url:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#  server:
+#    enable-self-preservation: false
