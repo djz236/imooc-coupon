@@ -10,6 +10,8 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/coupon-common/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-distribution/pom.xml" />
+        <option value="$PROJECT_DIR$/coupon-permission-detector/pom.xml" />
       </set>
     </option>
   </component>

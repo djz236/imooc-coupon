@@ -13,6 +13,11 @@
     <modules>
         <module>coupon-common</module>
         <module>coupon-template</module>
+        <module>coupon-permission-detector</module>
+        <module>coupon-distribution</module>
+        <module>coupon-permission-sdk</module>
+        <module>coupon-permission-service</module>
+        <module>coupon-settlement</module>
     </modules>
     <artifactId>imooc-coupon-service</artifactId>
 
