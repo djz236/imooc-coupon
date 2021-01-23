@@ -45,6 +45,9 @@ public class TemplateRule {
      * @date 2020/12/30 22:22
      * @version 1.0
      */
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
     public static class Expiration{
         //有效期规则 对应PeriodType 的 code
         private Integer period;

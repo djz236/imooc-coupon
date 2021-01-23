@@ -1,9 +1,15 @@
 package com.imooc.coupon.entity;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.immoc.coupon.constant.CouponCategory;
 import com.immoc.coupon.constant.DistributeTarget;
 import com.immoc.coupon.constant.ProductLine;
 import com.immoc.coupon.vo.TemplateRule;
+import com.imooc.coupon.converter.CouponCategoryConverter;
+import com.imooc.coupon.converter.DistributeTargetConverter;
+import com.imooc.coupon.converter.ProductLineConverter;
+import com.imooc.coupon.converter.RuleConverter;
+import com.imooc.coupon.serialization.CouponTemplateSerialize;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -26,7 +32,8 @@ import java.util.Date;
 @NoArgsConstructor
 @Entity
 @EntityListeners(AuditingEntityListener.class)
-@Table(name="coupon-template")
+@Table(name="coupon_template")
+@JsonSerialize(using = CouponTemplateSerialize.class)
 public class CouponTemplate implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -51,11 +58,11 @@ public class CouponTemplate implements Serializable {
     private String desc;
     /*优惠卷分类*/
     @Column(name = "category",nullable = false)
-    // @Convert(converter = CouponCategoryConverter.class)
+    @Convert(converter = CouponCategoryConverter.class)
     private CouponCategory category;
     /*产品线*/
     @Column(name = "product_line",nullable = false)
-    // @Convert(converter = ProductLineConverter.class)
+    @Convert(converter = ProductLineConverter.class)
     private ProductLine productLine;
     /*总数*/
     @Column(name = "coupon_count",nullable = false)
@@ -72,11 +79,11 @@ public class CouponTemplate implements Serializable {
     private String key;
     /*目标用户*/
     @Column(name = "target",nullable = false)
-    //@Convert(converter = DistributeTargetConverter.class)
+    @Convert(converter = DistributeTargetConverter.class)
     private DistributeTarget target;
     /*优惠卷规则*/
     @Column(name = "rule",nullable = false)
-    //@Convert(converter = RuleConverter.class)
+    @Convert(converter = RuleConverter.class)
     private TemplateRule rule;
 
     public CouponTemplate(String name, String logo, String desc,String category,

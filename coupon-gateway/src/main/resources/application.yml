@@ -17,11 +17,13 @@ zuul:
     template:
       path: /coupon-template/**
       serviceId: eureka-client-coupon-template
+      #是否跳过前缀
       strip-prefix: false
   host:
     connect-timeout-millis: 15000
     socket-timeout-millis: 60000
 
+#负载均衡的配置
 ribbon:
   ConnectTimeout: 15000
   ReadTimeout: 15000
