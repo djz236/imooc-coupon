@@ -1,6 +1,6 @@
 package com.imooc.coupon.controller;
 
-import com.immoc.coupon.exception.CouponException;
+import com.imooc.coupon.exception.CouponException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;

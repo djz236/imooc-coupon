@@ -1,7 +1,7 @@
 package com.imooc.coupon.service.impl;
 
 import com.google.common.base.Stopwatch;
-import com.immoc.coupon.constant.Constant;
+import com.imooc.coupon.constant.Constant;
 import com.imooc.coupon.dao.CouponTemplateDao;
 import com.imooc.coupon.entity.CouponTemplate;
 import com.imooc.coupon.service.IAsyncService;

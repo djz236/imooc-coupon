@@ -1,11 +1,10 @@
 package com.imooc.coupon.service.impl;
 
-import com.immoc.coupon.exception.CouponException;
-import com.immoc.coupon.vo.CouponTemplateSDK;
+import com.imooc.coupon.exception.CouponException;
+import com.imooc.coupon.vo.CouponTemplateSDK;
 import com.imooc.coupon.dao.CouponTemplateDao;
 import com.imooc.coupon.entity.CouponTemplate;
 import com.imooc.coupon.service.ITemplateBaseService;
-import com.netflix.discovery.converters.Auto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

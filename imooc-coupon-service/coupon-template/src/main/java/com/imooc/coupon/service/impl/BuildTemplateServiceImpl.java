@@ -1,6 +1,6 @@
 package com.imooc.coupon.service.impl;
 
-import com.immoc.coupon.exception.CouponException;
+import com.imooc.coupon.exception.CouponException;
 import com.imooc.coupon.dao.CouponTemplateDao;
 import com.imooc.coupon.entity.CouponTemplate;
 import com.imooc.coupon.service.IAsyncService;
@@ -66,7 +66,7 @@ public class BuildTemplateServiceImpl implements IBuildTemplateService {
                 templateRequest.getName(),
                 templateRequest.getLogo(),
                 templateRequest.getDesc(),
-                templateRequest.getCaetgory(),
+                templateRequest.getCategory(),
                 templateRequest.getProductLine(),
                 templateRequest.getCount(),
                 templateRequest.getUserId(),

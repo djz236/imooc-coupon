@@ -1,8 +1,8 @@
 package com.imooc.coupon.service;
 
-import com.immoc.coupon.exception.CouponException;
-import com.immoc.coupon.vo.CouponTemplateSDK;
-import com.immoc.coupon.vo.SettlementInfo;
+import com.imooc.coupon.exception.CouponException;
+import com.imooc.coupon.vo.CouponTemplateSDK;
+import com.imooc.coupon.vo.SettlementInfo;
 import com.imooc.coupon.entity.Coupon;
 import com.imooc.coupon.vo.AcquireTemplateRequest;
 

@@ -1,8 +1,8 @@
 package com.imooc.coupon.service.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.immoc.coupon.constant.Constant;
-import com.immoc.coupon.exception.CouponException;
+import com.imooc.coupon.constant.Constant;
+import com.imooc.coupon.exception.CouponException;
 import com.imooc.coupon.constant.CouponStatus;
 import com.imooc.coupon.entity.Coupon;
 import com.imooc.coupon.service.IRedisService;

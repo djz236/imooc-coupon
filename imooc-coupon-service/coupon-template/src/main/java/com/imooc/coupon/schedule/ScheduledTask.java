@@ -1,11 +1,10 @@
 package com.imooc.coupon.schedule;
 
 
-import com.immoc.coupon.vo.TemplateRule;
+import com.imooc.coupon.vo.TemplateRule;
 import com.imooc.coupon.dao.CouponTemplateDao;
 import com.imooc.coupon.entity.CouponTemplate;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;

@@ -1,7 +1,7 @@
 package com.imooc.coupon.entity;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.immoc.coupon.vo.CouponTemplateSDK;
+import com.imooc.coupon.vo.CouponTemplateSDK;
 import com.imooc.coupon.constant.CouponStatus;
 import com.imooc.coupon.converter.CouponStatusConverter;
 import com.imooc.coupon.serialization.CouponSerialize;

@@ -1,10 +1,10 @@
 package com.imooc.coupon.entity;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.immoc.coupon.constant.CouponCategory;
-import com.immoc.coupon.constant.DistributeTarget;
-import com.immoc.coupon.constant.ProductLine;
-import com.immoc.coupon.vo.TemplateRule;
+import com.imooc.coupon.constant.CouponCategory;
+import com.imooc.coupon.constant.DistributeTarget;
+import com.imooc.coupon.constant.ProductLine;
+import com.imooc.coupon.vo.TemplateRule;
 import com.imooc.coupon.converter.CouponCategoryConverter;
 import com.imooc.coupon.converter.DistributeTargetConverter;
 import com.imooc.coupon.converter.ProductLineConverter;

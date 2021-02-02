@@ -1,6 +1,5 @@
 package com.imooc.coupon.vo;
 
-import com.immoc.coupon.vo.CouponTemplateSDK;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

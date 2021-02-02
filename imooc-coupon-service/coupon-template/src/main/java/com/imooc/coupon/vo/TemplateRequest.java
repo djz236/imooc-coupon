@@ -1,9 +1,8 @@
 package com.imooc.coupon.vo;
 
-import com.immoc.coupon.constant.CouponCategory;
-import com.immoc.coupon.constant.DistributeTarget;
-import com.immoc.coupon.constant.ProductLine;
-import com.immoc.coupon.vo.TemplateRule;
+import com.imooc.coupon.constant.CouponCategory;
+import com.imooc.coupon.constant.DistributeTarget;
+import com.imooc.coupon.constant.ProductLine;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -27,7 +26,7 @@ public class TemplateRequest {
     /*优惠卷描述*/
     private String desc;
     /*优惠卷分类*/
-    private String caetgory;
+    private String category;
     /*产品线*/
     private Integer productLine;
     /*总数*/
@@ -47,7 +46,7 @@ public class TemplateRequest {
         boolean stringValid = StringUtils.isNotBlank(name)
                 && StringUtils.isNotBlank(logo)
                 && StringUtils.isNotBlank(desc);
-        boolean enumValid = null != CouponCategory.of(caetgory)
+        boolean enumValid = null != CouponCategory.of(category)
                 && null != ProductLine.of(productLine)
                 && null != DistributeTarget.of(productLine);
         boolean numValid = count > 0 && target>0;

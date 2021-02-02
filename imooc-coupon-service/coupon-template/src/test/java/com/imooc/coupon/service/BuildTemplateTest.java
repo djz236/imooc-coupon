@@ -1,11 +1,11 @@
 package com.imooc.coupon.service;
 
 import com.alibaba.fastjson.JSON;
-import com.immoc.coupon.constant.CouponCategory;
-import com.immoc.coupon.constant.DistributeTarget;
-import com.immoc.coupon.constant.PeriodType;
-import com.immoc.coupon.constant.ProductLine;
-import com.immoc.coupon.vo.TemplateRule;
+import com.imooc.coupon.constant.CouponCategory;
+import com.imooc.coupon.constant.DistributeTarget;
+import com.imooc.coupon.constant.PeriodType;
+import com.imooc.coupon.constant.ProductLine;
+import com.imooc.coupon.vo.TemplateRule;
 import com.imooc.coupon.vo.TemplateRequest;
 import org.apache.commons.lang.time.DateUtils;
 import org.junit.Test;
@@ -48,7 +48,7 @@ public class BuildTemplateTest {
         request.setName("优惠卷模板-" + new Date().getTime());
         request.setLogo("www.baidu.com");
         request.setDesc("这是一张优惠卷模板");
-        request.setCaetgory(CouponCategory.MANJIAN.getCode());
+        request.setCategory(CouponCategory.MANJIAN.getCode());
         request.setProductLine(ProductLine.DAMAO.getCode());
         request.setCount(10);//fake userId
         request.setUserId(10001L);

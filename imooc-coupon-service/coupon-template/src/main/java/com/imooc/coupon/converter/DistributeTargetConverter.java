@@ -1,6 +1,6 @@
 package com.imooc.coupon.converter;
 
-import com.immoc.coupon.constant.DistributeTarget;
+import com.imooc.coupon.constant.DistributeTarget;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;
