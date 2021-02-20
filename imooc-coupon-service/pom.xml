@@ -9,6 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <artifactId>imooc-coupon-service</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>coupon-common</module>
@@ -19,7 +21,6 @@
         <module>coupon-permission-service</module>
         <module>coupon-settlement</module>
     </modules>
-    <artifactId>imooc-coupon-service</artifactId>
 
 
 </project>

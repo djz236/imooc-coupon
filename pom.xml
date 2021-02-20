@@ -72,7 +72,7 @@
              </snapshots>
          </repository>
      </repositories>-->
-    <repositories>
+   <!-- <repositories>
         <repository>
             <id>aliyun</id>
             <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
@@ -95,5 +95,5 @@
             <id>spring-snapshots</id>
             <url>http://repo.spring.io/libs-snapshot</url>
         </pluginRepository>
-    </pluginRepositories>
+    </pluginRepositories>-->
 </project>
