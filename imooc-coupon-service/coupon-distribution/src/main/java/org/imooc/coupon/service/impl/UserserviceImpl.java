@@ -14,7 +14,6 @@ import org.imooc.coupon.feign.SettlementClient;
 import org.imooc.coupon.feign.TemplateClient;
 import org.imooc.coupon.service.IRedisService;
 import org.imooc.coupon.service.IUserService;
-import com.imooc.coupon.vo.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.tuple.Pair;

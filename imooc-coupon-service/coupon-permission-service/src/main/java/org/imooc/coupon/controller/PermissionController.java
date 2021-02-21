@@ -51,8 +51,9 @@ public class PermissionController {
     public Boolean checkPermission(@RequestBody CheckPermissionRequest request){
         log.info("Check Permission For args:{},{},{}",
                 request.getUserId(),request.getUri(),request.getHttpMethod());
-        return permissionService.checkPermission(
-                request.getUserId(),request.getUri(),request.getHttpMethod()
+        Boolean aBoolean = permissionService.checkPermission(
+                request.getUserId(), request.getUri(), request.getHttpMethod()
         );
+        return aBoolean;
     }
 }
